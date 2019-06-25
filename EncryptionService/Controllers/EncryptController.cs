@@ -14,7 +14,6 @@ namespace EncryptionService.Controllers
             _encryptionService = EncryptionService;
         }
 
-
         [HttpGet("{password}")]
         public ActionResult<string> Get(string password)
         {
